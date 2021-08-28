@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Allison&family=Lobster&family=Oxygen&display=swap');
-body{
-    margin-left: 0%;
-    margin-right: 0%;
-    padding: 0%;
-}
+body {
+    font-family: "Lobster",cursive;
+  }
+.page-container {
+    max-width: 100%;
+    margin: auto;
+    background-color: #555;
+    color: white;
+    border-radius: 10px;
+  }
+  
 .topnav{
     overflow: hidden;
     background-color: #008b8b;
@@ -32,10 +38,5 @@ body{
 /*add hover effects*/
 .topnav a:hover{
     background-color: #ddd;
-    color: green;
-}
-
-.logo{
-    -background-color: #04aa6d;
-    color-adjust:unset;
+    color: black;
 }
